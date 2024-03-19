@@ -1,1 +1,3 @@
-mw
+this is a recreation of common gold making websites that use the auction house api to track hourly price changes. however, this program, ran in python, will send item id, the stuff that auction house addons need to cache items in order to search for them in game, to the addon folder, updating it while in game. of course, this requires you, the player, to /reload the client so the files in the addon folder are usable by your ah addons. this is adaptive caching that requires you to maintain the data files for pets, item ids, and items. that's up to you to maintain. 
+
+nothing is automating any part of the game, all addons using this data follow the 1:1 rules of button presses, and actual ah addons that can rune indefinitely are much faster than a once-an-hour api update. it's technically using everything that blizzard themselves supplies devs through the api portal, but the implementation might be in the grey zone.
